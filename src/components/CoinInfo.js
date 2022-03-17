@@ -80,14 +80,13 @@ const CoinInfo = ({coin}) => {
             }
             ],
           }}
-          options={
-            {
-              elements:{
-                points:{
-                  radius:1
+          options={{
+                elements: {
+                  point: {
+                    radius: 1,
+                  },
                 },
-              },
-            }}
+              }}
            />
            <div className={classes.BuutonDiv}>
              {
