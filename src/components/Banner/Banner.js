@@ -26,7 +26,7 @@ const Banner = () => {
     <div className={classes.banner}>
       <Container className={classes.bannerContent}>
             <div className={classes.tagLine}>
-            <Typography variant='h2' style={{fontWeight:'bold',marginBottom:15,fontFamily:'Montserrat'}}>
+            <Typography variant='h2' style={{fontWeight:'bold',margin:'auto',width:'70%',textAlign:'center' ,fontFamily:'Montserrat'}}>
               Crypto Hunter
             </Typography>
             <Typography variant='subtitle2'
